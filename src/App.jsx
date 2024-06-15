@@ -8,8 +8,10 @@ import HeroHome from './components/HeroHome';
 import Cart from './components/Cart';
 import Navbar from './components/Navbar';
 import Checkout from './components/Checkout';
-import OrderSuccess from './components/OrderSuccess';
-import UserProfile from './components/profile';
+import OrderSuccess from './ui/OrderSuccess';
+import UserProfile from './ui/profile';
+import Wishlist from './components/Wishlist';
+import BookmarkPage from './ui/BookmarkPage';
 
 function App() {
 
@@ -41,6 +43,8 @@ function App() {
         {/* Use element prop instead of component prop */}
         <Route path="/order-success" element={<OrderSuccess />} />
         <Route path="/userprofile" element={<UserProfile />} />
+        <Route path="/wishlist" element={<Wishlist />} />
+        <Route path="/bookmark" element={<BookmarkPage />} />
       </Routes>
     </BrowserRouter>
   )

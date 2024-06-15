@@ -39,9 +39,9 @@ const PriceFilter = ({ onFilter }) => {
   return (
     <div className="gap-6 md:flex-row items-center px-4 p-2 bg-gray-700 text-white mt-6  rounded-xl shadow-lg w-full md:w-auto mx-4 md:mx-0">
       {/* Title for the price filter */}
-      <h2 className="text-lg text-center md:text-left font-semibold"> Price</h2>
+      {/* <h2 className="text-lg text-center md:text-left font-semibold"> Price</h2> */}
       {/* Slider for selecting price range */}
-      <div className="w-full mb-6 flex flex-col items-center">
+      <div className="w-full mb-4 flex flex-col items-center">
         <Slider
           range
           min={0}
